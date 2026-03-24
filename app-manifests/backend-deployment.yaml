@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: abdevopstest.azurecr.io/backend:latest
+        image: public.ecr.aws/m1r5r8n9/backend:latest
         ports:
           - containerPort: 3500
         env:

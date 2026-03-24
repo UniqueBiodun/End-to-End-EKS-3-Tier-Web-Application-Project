@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: abdevopstest.azurecr.io/frontend:latest
+        image: public.ecr.aws/m1r5r8n9/frontend:latest
         ports:
           - containerPort: 80
         
