@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: samosung/backend:latest
+        image: uniquebiodun/backend:latest
         ports:
           - containerPort: 3500
         env:

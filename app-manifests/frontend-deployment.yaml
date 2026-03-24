@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: samosung/front-end:latest
+        image: uniquebiodun/frontend:latest
         ports:
           - containerPort: 80
         

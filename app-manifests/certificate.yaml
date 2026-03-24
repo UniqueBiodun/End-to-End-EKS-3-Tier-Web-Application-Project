@@ -6,8 +6,8 @@ metadata:
 spec:
   secretName: frontend-tls-secret
   dnsNames:
-    - your-domain
-    - api.your-domain
+    - unique.name.ng
+    - api.unique.name.ng
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer

@@ -7,12 +7,12 @@ metadata:
 spec:
   tls:
   - hosts:
-    - your-domain
-    - api.your-domain
+    - unique.name.ng
+    - api.unique.name.ng
     secretName: frontend-tls-secret
   rules:
     # Frontend
-    - host: your-domain
+    - host: unique.name.ng
       http:
         paths:
         - path: /
@@ -24,7 +24,7 @@ spec:
                 number: 80
 
     # Backend
-    - host: api.your-domain
+    - host: api.unique.name.ng
       http:
         paths:
         - path: /
