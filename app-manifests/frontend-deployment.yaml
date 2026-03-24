@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: uniquebiodun/frontend:latest
+        image: abdevopstest.azurecr.io/frontend:latest
         ports:
           - containerPort: 80
         
